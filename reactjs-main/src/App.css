@@ -1,0 +1,11 @@
+.carousel-item img{
+  height: 450px;
+}
+
+.custom-background{
+  background-image: linear-gradient( 104deg, #0aa3d2 2.6%, #c2e7b4 90.3% );
+}
+
+.card-img-top{
+  height:200px;
+}
