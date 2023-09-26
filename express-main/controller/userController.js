@@ -164,7 +164,7 @@ exports.reqiuiresignin = expressjwt({
     algorithms: ['HS256']
 })
 
-// reswnd verification
+// resend verification
 exports.resendverification = async (req, res) => {
     // check email
     let user = await User.findOne({ email: req.body.email })
